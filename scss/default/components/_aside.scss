@@ -206,6 +206,12 @@
   .dropdown-aside {
     background-color: $white;
   }
+
+  .aside-footer {
+    .btn-color-toggle {
+      color: $primary;
+    }
+  }
 }
 
 // White links against a dark background
