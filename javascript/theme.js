@@ -553,14 +553,11 @@ class Theme {
   invertGrays () {
     const self = this
     const gray = this.getColors('gray')
-    console.log(gray)
     // get gray colors in array that reserve it
     const reverseGray = this.objToArray(gray).reverse()
-    console.log(reverseGray)
     let x = 0
 
     $.each(gray, (i, v) => {
-      console.log(this)
       this.colors.gray[i] = reverseGray[x]
       x++
     })
@@ -1910,7 +1907,6 @@ class Theme {
  */
 const Looper = (function () {
   const Looper = new Theme()
-  console.log(Looper)
 
   // toggle skin thought button
   $('[data-toggle="skin"]').on('click', e => {
