@@ -117,8 +117,8 @@
 
 
           <!-- Messages -->
-          <li [[^ data.messages ]] style='display: none' [[/ data.messages ]] class="nav-item dropdown header-nav-dropdown[[#data.messages.containsUnread]] has-notified[[/data.messages.containsUnread]]">
-            <a class="nav-link" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="oi oi-envelope-open"></span></a> <!-- .dropdown-menu -->
+          <li [[^ data.messages ]] style='display: none' [[/ data.messages ]] class="nav-item dropdown header-nav-dropdown[[#data.messages.containsUnread]] ">
+            <a class="nav-link has-notified[[/data.messages.containsUnread]]" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="oi oi-envelope-open"></span></a> <!-- .dropdown-menu -->
             <div class="dropdown-menu dropdown-menu-rich dropdown-menu-right">
               <div class="dropdown-arrow"></div>
               <h6 class="dropdown-header stop-propagation">
@@ -149,7 +149,7 @@
           <!-- .nav-item -->
 
           <!-- Apps -->
-          <li [[^ data.apps ]] style='display: none' [[/ data.apps ]]class="nav-item dropdown header-nav-dropdown">
+          <li [[^ data.apps ]] style='display: none' [[/ data.apps ]] class="nav-item dropdown header-nav-dropdown">
             <a class="nav-link" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="oi oi-grid-three-up"></span></a> <!-- .dropdown-menu -->
             <div class="dropdown-menu dropdown-menu-rich dropdown-menu-right">
               <div class="dropdown-arrow"></div><!-- .dropdown-sheets -->
